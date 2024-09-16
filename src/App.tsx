@@ -1,10 +1,11 @@
 import { UserCard } from "./ui-1_user-card/UserCard";
 import { JobList } from "./ui-2_search/Joblist";
 import { Collections } from "./ui-3_collections-list/Collections";
+import { ReviewForm } from "./ui-4_review-modal/ReviewForm";
 
 function App() {
   return (
-    <div className="flex h-full w-full items-center justify-center bg-[#E5E7F0] md:h-full lg:h-screen">
+    <div className="flex min-h-screen w-full items-center justify-center bg-[#E5E7F0]">
       {/* UI 1 */}
       {/* <UserCard /> */}
 
@@ -12,7 +13,10 @@ function App() {
       {/* <JobList /> */}
 
       {/* UI 3 */}
-      <Collections />
+      {/* <Collections /> */}
+
+      {/* UI 4 */}
+      <ReviewForm />
     </div>
   );
 }
