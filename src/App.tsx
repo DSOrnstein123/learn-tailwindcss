@@ -3,6 +3,7 @@ import { JobList } from "./ui-2_search/Joblist";
 import { Collections } from "./ui-3_collections-list/Collections";
 import { ReviewForm } from "./ui-4_review-modal/ReviewForm";
 import { UserList } from "./ui-5_users-list/UserList";
+import { Notification } from "./ui-6_notification/Notification";
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
       {/* <ReviewForm /> */}
 
       {/* UI 5 */}
-      <UserList />
+      {/* <UserList /> */}
+
+      {/* UI 6 */}
+      {/* <Notification /> */}
     </div>
   );
 }
