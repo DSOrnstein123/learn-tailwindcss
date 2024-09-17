@@ -4,6 +4,7 @@ import { Collections } from "./ui-3_collections-list/Collections";
 import { ReviewForm } from "./ui-4_review-modal/ReviewForm";
 import { UserList } from "./ui-5_users-list/UserList";
 import { Notification } from "./ui-6_notification/Notification";
+import { BuySubscription } from "./ui-7_buy-subscription/BuySubscription";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
 
       {/* UI 6 */}
       {/* <Notification /> */}
+
+      {/* UI 7 */}
+      <BuySubscription />
     </div>
   );
 }
