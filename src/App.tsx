@@ -5,6 +5,7 @@ import { ReviewForm } from "./ui-4_review-modal/ReviewForm";
 import { UserList } from "./ui-5_users-list/UserList";
 import { Notification } from "./ui-6_notification/Notification";
 import { BuySubscription } from "./ui-7_buy-subscription/BuySubscription";
+import { JobCards } from "./ui-8_job-cards/JobCards";
 
 function App() {
   return (
@@ -28,7 +29,10 @@ function App() {
       {/* <Notification /> */}
 
       {/* UI 7 */}
-      <BuySubscription />
+      {/* <BuySubscription /> */}
+
+      {/* UI 8 */}
+      <JobCards />
     </div>
   );
 }
