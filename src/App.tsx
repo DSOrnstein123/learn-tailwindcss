@@ -36,7 +36,7 @@ function App() {
       {/* <JobCards /> */}
 
       {/* UI 9 */}
-      <AccountsList />
+      {/* <AccountsList /> */}
     </div>
   );
 }
