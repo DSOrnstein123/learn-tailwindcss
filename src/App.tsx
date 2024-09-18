@@ -6,6 +6,7 @@ import { UserList } from "./ui-5_users-list/UserList";
 import { Notification } from "./ui-6_notification/Notification";
 import { BuySubscription } from "./ui-7_buy-subscription/BuySubscription";
 import { JobCards } from "./ui-8_job-cards/JobCards";
+import { AccountsList } from "./ui-9_accounts-list/AccountsList";
 
 function App() {
   return (
@@ -32,7 +33,10 @@ function App() {
       {/* <BuySubscription /> */}
 
       {/* UI 8 */}
-      <JobCards />
+      {/* <JobCards /> */}
+
+      {/* UI 9 */}
+      <AccountsList />
     </div>
   );
 }

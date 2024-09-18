@@ -169,7 +169,7 @@ export const JobList = () => {
       <div className="relative flex items-center">
         <input
           type="text"
-          placeholder="Search for a part-time job "
+          placeholder="Search for a part-time job"
           className="mr-2 w-full rounded-md border-2 border-gray-300 p-[10px] pl-10 text-[#281A51]"
         />
         <svg
